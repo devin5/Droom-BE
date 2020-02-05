@@ -19,7 +19,7 @@ server.use("/employer/auth/droom/api", employerAuthRouter);
 server.use("/employer/droom/api", restricted, employerApiRouter);
 
 server.get("/", (req, res) => {
-  res.send(
+    res.send(
     "<h1>Hello im the API for droom. I have been to many places... but this one is the coldest... please, help me escape from this place</h1>"
   );
 });
